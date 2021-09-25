@@ -15,7 +15,7 @@ body{
 }
 
 .container-center{
-    max-width: 600px;
+    max-width: 350px;
     margin: auto;
 }
 
@@ -94,6 +94,7 @@ body{
 
 .section{
     padding: 2rem;
+    text-align: center;
 }
 
 .section h1{
@@ -120,4 +121,9 @@ body{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.row{
+    display: flex;
+    flex-flow: wrap-reverse;
 }
